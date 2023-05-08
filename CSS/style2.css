@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Cinzel&family=Inter:wght@400;700&family=Italiana&family=Kanit&family=Pacifico&family=Poppins:ital,wght@1,500&family=Raleway:wght@500&family=Roboto+Mono:ital,wght@1,500&family=Sono&display=swap');
+
+:root {
+  --midnight-green: #1F4045ff;
+  --timberwolf: #D1D0CFff;
+  --silver: #B2B0ADff;
+  --dim-gray: #636C6Cff;
+  --dark-slate-gray: #355255ff;
+  --platinum: #FFF7D4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: wrap column;
+  font-family: 'Montserrat';
+  color: var(--midnight-green);
+}
+
+/* nav-bar style */
+.navbar {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--midnight-green);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-logo {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.navbar-menu {
+  display: none;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+  list-style: none;
+}
+
+.navbar-menu.active {
+  display: flex;
+}
+
+.navbar-menu li {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: var(--silver);
+  font-size: 1.3rem;
+}
+
+.navbar-menu li a:hover {
+  color: var(--timberwolf);
+}
+
+.btn1 {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  background-color: var(--timberwolf);
+  color: var(--midnight-green);
+  margin-top: 1rem;
+  align-self: center;
+  font-size: 1.2rem;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  color: var(--timberwolf);
+  background-color: var(--midnight-green);
+}
+
+.btn1-content {
+  letter-spacing: 0.3rem;
+}
+
+/* header style */
+.container-main-img {
+  display: flex;
+  flex-flow: wrap row;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.container-main-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* about style */
+.container-about {
+  padding: 0 5%;
+  margin-top: 2rem;
+  background-color: var(--platinum);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
+}
+
+.container-about .content {
+  width: 100%;
+  text-align: center;
+}
+
+.container-about .content h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dark-slate-gray);
+  font-family: 'Italian';
+}
