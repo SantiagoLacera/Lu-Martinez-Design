@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Cinzel&family=Inter:wght@400;700&family=Italiana&family=Kanit&family=Pacifico&family=Poppins:ital,wght@1,500&family=Raleway:wght@500&family=Roboto+Mono:ital,wght@1,500&family=Sono&display=swap');
+@import url('//db.onlinewebfonts.com/c/1ba82d324736a8a9d4327d482c4627c4?family=Ebrima');
 
 :root {
-  --midnight-green: #1F4045;
-    --timberwolf: #D1D0CF;
-    --silver: #B2B0AD;
+  --japanese-indigo: #1F4045;
+    --platinum: #eae6e3;
+    --dust-storm: #ebcdc3;
     --dim-gray: #636C6C;
-    --dark-slate-gray: #355255;
-    --platinum: # FFF7D4;
+  --roman-silver: #7f9593;
+    --tan: #D5B19B;
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 html {
-  margin: 0;
+  margin: 0.5%;
   padding: 0;
   scroll-behavior: smooth;
 }
@@ -24,8 +24,8 @@ html {
 body {
   display: flex;
   flex-flow: wrap column;
-  font-family: 'Montserrat';
-  color: var(--midnight-green);
+  font-family: ebrima;
+    color: var(--japanese-indigo);
 }
 
 main {
@@ -39,7 +39,7 @@ h1 {
   flex-flow: nowrap row;
   justify-content: center;
   margin-bottom: 2%;
-  color: var(--dark-slate-gray);
+  color: var(--roman-silver);
   font-weight: 400;
   font-size: 3.5rem;
 }
@@ -48,6 +48,7 @@ input,
 textarea {
   outline: none;
 }
+
 /* Center Block */
 
 .cnt-block {
@@ -56,8 +57,8 @@ textarea {
   flex-flow: wrap row;
   justify-content: center;
   align-items: center;
-  background-color: var(--midnight-green);
-  color: var(--timberwolf);
+  background-color: var(--japanese-indigo);
+    color: var(--platinum);
   padding: 2% 0;
 }
 
@@ -72,11 +73,12 @@ textarea {
   flex-flow: wrap row;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--midnight-green);
+  background-color: var(--japanese-indigo);
   margin: 0;
   padding: 0;
   position: fixed;
   width: 100%;
+  height: 20%;
   top: 0;
   left: 0;
   right: 0;
@@ -87,6 +89,10 @@ textarea {
   cursor: pointer;
 }
 
+.navbar-logo img {
+  height: 100px;
+  width: 350px;
+}
 .navbar-menu {
   display: flex;
   flex-flow: wrap row;
@@ -105,22 +111,22 @@ textarea {
 .navbar-menu li a {
   text-decoration: none;
   transition: all 0.3s ease 0s;
-  color: var(--silver);
+  color: var(--platinum);
   font-size: 1.3rem;
 }
 
 .navbar-menu li a:hover {
-  color: var(--timberwolf);
+  color: var(--platinum);
 }
 
 .navbar.scrolled {
   height: 80px;
-  background-color: var(--dark-slate-gray);
+  background-color: var(--roman-silver);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.scrolled .navbar-logo img {
-  height: 80px;
+  height: 60px;
 }
 
 .navbar.scrolled .navbar-menu ul li a {
@@ -139,23 +145,24 @@ textarea {
   border-radius: 50px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  background-color: var(--timberwolf);
-  color: var(--midnight-green);
+  background-color: var(--dim-gray);
+    color: var(--japanese-indigo);
   font-size: 1rem;
-    margin-bottom: 5%;
+  margin-bottom: 5%;
     margin-right: 2%;
   }
 
 .btn1:hover {
   cursor: pointer;
-  color: var(--timberwolf);
-  background-color: var(--midnight-green);
+  color: var(--platinum);
+    background-color: var(--japanese-indigo);
   border: 1px solid white;
 }
 
 .btn1-content {
   letter-spacing: 0.3rem;
 }
+
 /* ------------------ */
 /* header style */
 .container-main-img {
@@ -172,12 +179,13 @@ textarea {
 
 /* about style */
 .container-about {
-  padding: 0 5%;
+  padding: 2% 5%;
   margin-top: 5%;
-  background-color: var(--platinum);
+  background-color: var(--dust-storm);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
 }
 
 .container-about h1 {
@@ -193,16 +201,19 @@ textarea {
 }
 
 .container-about img {
-  margin-left: auto;
+  margin-left: 10%;
 }
 
+.container-image-about img {
+  width: 100%;
+  height: 10%;
+}
 /* ------------------ */
 
 /* services style */
 .container-services {
   padding: 0 5%;
   margin-top: 5%;
-  background-color: var(--platinum);
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -228,8 +239,8 @@ textarea {
 
 .image-block img:hover {
   cursor: pointer;
-  transform: scale(1.1);
-  transition: all 0.3s ease 0s;
+  transform: scale(1.3);
+    transition: all 0.5s ease 0s;
 }
 
 /* ------------------ */
@@ -345,7 +356,7 @@ textarea {
   text-align: justify;
   text-justify: inter-word;
   text-orientation: mixed;
-  color: var(--midnight-green);
+  color: var(--japanese-indigo);
 }
 
 .form-block {
@@ -358,7 +369,7 @@ textarea {
 .form-block h4 {
   font-size: 1.3rem;
   font-weight: 100;
-  color: var(--midnight-green);
+  color: var(--japanese-indigo);
 }
 
 /* form style */
@@ -376,7 +387,7 @@ form {
   width: 50px;
   height: 20px;
   border-radius: 20px;
-  background-color: var(--dark-slate-gray);
+  background-color: var(--roman-silver);
 }
 
 .form-left-decoration {
@@ -455,19 +466,20 @@ button {
   margin-top: 20px;
   border-radius: 20px;
   border: none;
-  border-bottom: 4px solid var(--timberwolf);
-  background: var(--silver);
+  border-bottom: 4px solid var(--platinum);
+    background: var(--dust-storm);
   font-size: 16px;
   font-weight: 400;
-  color: var(--midnight-green);
+  color: var(--japanese-indigo);
+    font-weight: 500;
   transition: all 0.3s ease 0s;
 }
 
 button:hover {
   cursor: pointer;
-  color: var(--timberwolf);
-  background-color: var(--midnight-green);
-  border-bottom: 4px solid var(--timberwolf);
+  color: var(--platinum);
+    background-color: var(--japanese-indigo);
+    border-bottom: 4px solid var(--platinum);
 }
 
 /* social media style */
