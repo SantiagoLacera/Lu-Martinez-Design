@@ -7,7 +7,6 @@ window.addEventListener('scroll', () => {
 
   } else {
     navbar.classList.remove('scrolled');
-    btn1.classList.remove('scrolled');
   }
 });
 
