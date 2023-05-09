@@ -22,7 +22,7 @@ html {
 body {
   display: flex;
   flex-flow: wrap column;
-  font-family: ebrima;
+  font-family: century gothic;
   color: var(--japanese-indigo);
 }
 
@@ -190,7 +190,7 @@ textarea {
 }
 
 .btn1-content {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
 /* ------------------ */
@@ -310,7 +310,6 @@ textarea {
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
-  letter-spacing: 0.3rem;
   width: 100%;
 }
 
