@@ -10,6 +10,8 @@ const leftDecoration = document.querySelector(".form-left-decoration");
 const rightDecoration = document.querySelector(".form-right-decoration");
 const circle = document.querySelector('.circle');
 const home = document.querySelector('html');
+const form = document.getElementById('contactForm');
+const result = document.getElementById('result');
 
 
 window.addEventListener('scroll', () => {
@@ -42,3 +44,7 @@ formBtn.addEventListener("mouseleave", function () {
   leftDecoration.classList.remove("active");
   rightDecoration.classList.remove("active");
 });
+
+/* Send email function */
+
+
