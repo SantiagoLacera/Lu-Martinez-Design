@@ -264,7 +264,7 @@ textarea {
 
 .image-block img {
   width: 23%;
-  height: 490px;
+  height: 300px;
   margin: 1%;
   border-radius: 10px;
   filter: grayscale(100%);
@@ -728,8 +728,8 @@ button {
   }
 
   .icon-img img {
-    width: 50%;
-    height: 100px;
+    width: 90%;
+    height: 90px;
   }
 
   .text-block {
