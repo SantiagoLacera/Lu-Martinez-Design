@@ -9,7 +9,7 @@ const logo1 = document.querySelector('.container-image-about');
 const leftDecoration = document.querySelector(".form-left-decoration");
 const rightDecoration = document.querySelector(".form-right-decoration");
 const circle = document.querySelector('.circle');
-const home = document.querySelector('html');
+const form = document.querySelector('.form-inner');
 
 
 window.addEventListener('scroll', () => {
@@ -43,6 +43,10 @@ formBtn.addEventListener("mouseleave", function () {
   rightDecoration.classList.remove("active");
 });
 
-/* Send email function */
+formBtn.addEventListener("click", function () {
+  form.blur();
+  console.log("clicked");
+}
+);
 
 
