@@ -701,7 +701,7 @@ button {
   .services-container {
     margin-top: 10%;
     display: block;
-    padding-bottom: 100%;
+    margin-bottom: 100%;
   }
 
   .services-container h1 {
