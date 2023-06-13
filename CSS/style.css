@@ -718,7 +718,6 @@ button {
   .services-container {
     margin-top: 10%;
     width: 100%;
-    margin-bottom: 65vh;
   }
 
   .services-container h1 {
@@ -731,6 +730,7 @@ button {
     grid-gap: 1rem;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 2%;
     grid-template-columns: repeat(1, 1fr);
     justify-content: space-around;
   }
@@ -804,7 +804,7 @@ button {
   }
 
   .slogan {
-    margin-top: 20px;
+    margin-top: 2%;
     margin-bottom: 10px;
     text-align: center;
   }
