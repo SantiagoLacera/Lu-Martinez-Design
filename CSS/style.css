@@ -718,7 +718,7 @@ button {
   .services-container {
     margin-top: 10%;
     width: 100%;
-    margin-bottom: 65vh;
+    margin-bottom: 67vh;
   }
 
   .services-container h1 {
@@ -737,7 +737,7 @@ button {
 
   .card {
     position: relative;
-    height: 250px;
+    height: 220px;
     width: 100%;
     background-position: center;
   }
